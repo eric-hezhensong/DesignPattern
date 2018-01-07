@@ -5,7 +5,6 @@ class Singleton(object):
     """
     Design Pattern: Singleton
     """
-
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, '__instance'):
             org = super(Singleton, cls)
